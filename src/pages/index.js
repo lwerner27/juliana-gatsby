@@ -1,5 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default function Home() {
-  return <div className="text-6xl text-blue-500">Hello world!</div>
+  return (
+    <nav className="bg-green-500 py-5">
+      <div className="nav__container max-w-6xl mx-auto">
+        <Link className="text-white capitalize">JULIANA BRANDT</Link>
+      </div>
+    </nav>
+  )
 }
