@@ -32,6 +32,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <main className="md:h-screen md:overflow-y-scroll lg:w-2/3">
+        <section className="about md:h-screen bg-blue-500">
+          This the about section
+        </section>
+        <section className="about md:h-screen bg-green-500"></section>
+        <section className="about md:h-screen bg-pink-500"></section>
+      </main>
     </div>
   )
 }
