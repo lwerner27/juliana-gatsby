@@ -34,8 +34,15 @@ export default function Home() {
       </div>
 
       <main className="md:h-screen md:overflow-y-scroll lg:w-2/3">
-        <section className="about md:h-screen bg-blue-500">
-          This the about section
+        <section className="about md:h-screen px-10 pt-10 ">
+          <p class="section__header text-6xl mb-3">ABOUT</p>
+          <p class="leading-loose text-xl">
+          Juliana Brandt is an author and kindergarten teacher with a passion for storytelling that guides her in both of her jobs. She lives in her childhood home of Minnesota, and her writing is heavily influenced by travels around the country and decade living in the South.
+          </p>
+          <br></br>
+          <p class="leading-loose text-xl">
+          When not working, she is usually exploring the great outdoors. Her debut novel, <strong>THE WOLF OF CAPE FEN</strong>, was published by SourcebooksKids on April 7th, 2020.  Her sophomore novel, <strong>A WILDER MAGIC</strong>, will publish May 2021. Her writing is represented by Natalie Lakosil of Bradford Literary Agency.
+          </p>
         </section>
         <section className="about md:h-screen bg-green-500"></section>
         <section className="about md:h-screen bg-pink-500"></section>
